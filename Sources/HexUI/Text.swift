@@ -7,6 +7,7 @@ public typealias Text = SwiftUI.Text
 #else
 
 import Foundation
+import CGtk3
 
 
 #endif

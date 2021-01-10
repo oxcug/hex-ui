@@ -8,8 +8,11 @@ public typealias WindowGroup = SwiftUI.WindowGroup
 
 import Foundation
 
-struct WindowGroup {
+public struct WindowGroup: Scene {
     
+    public init() {
+        
+    }
 }
 
 #endif

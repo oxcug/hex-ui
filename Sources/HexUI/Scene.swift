@@ -6,4 +6,8 @@ public typealias Scene = SwiftUI.Scene
 
 #else
 
+public protocol Scene {
+    
+}
+
 #endif

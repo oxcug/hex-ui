@@ -6,16 +6,19 @@ public typealias App = SwiftUI.App
 
 #else
 
+import CGtk3
 import Foundation
 
 public protocol App {
     
-    var body: some Scene
+    var body: Scene { get }
+
+    static func main()
 }
 
 extension App {
     public static func main() {
-        print("Whoop!")
+        CGtk3.run()
     }
 }
 

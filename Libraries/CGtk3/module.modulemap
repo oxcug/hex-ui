@@ -1,7 +1,7 @@
 
-module CGtk [system] {
+module CGtk3 [system] {
 
-  umbrella header "header.h"
+  umbrella header "CGtk3.h"
 
   link "glib-2.0"
   link "gtk-3"
